@@ -1,0 +1,95 @@
+.About {
+    display: flex;
+    flex-flow: row;
+    background-color: #85adad;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.Name {
+    order: 1;
+    position:absolute;
+    left:30%;
+    top:65%;
+    margin-left:-250px;
+    margin-top:-250px;
+    color: white;
+    font-size: 40px;
+}
+
+.About-para {
+    order: 2;
+    position:absolute;
+    left:27%;
+    top:72%;
+    margin-left:-250px;
+    margin-top:-250px;
+    color: white;
+    font-size: 20px;
+}
+
+.About-Sec-Img img {
+    position:absolute;
+    left:75%;
+    top:55%;
+    height: 380px;
+    margin-left:-250px;
+    margin-top:-250px;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .Name {
+        font-size: 30px;
+        top: 70%;
+        left: 50%;
+        margin-left: -22.5%;
+        margin-top: -15%;
+    }
+    
+    .About-para {
+        font-size: 15px;
+        top: 70%;
+        left: 38%;
+        margin-left: -22.5%;
+        margin-top: -5%;
+    }
+    
+    .About-Sec-Img img {
+        font-size: 10px;
+        top: 25%;
+        left: 50%;
+        margin-left: -22%;
+        margin-top: -5%;
+        height: 250px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .Name {
+        font-size: 20px;
+        top: 70%;
+        left: 50%;
+        margin-left: -25%;
+        margin-top: -15%;
+    }
+    
+    .About-para {
+        font-size: 10px;
+        top: 70%;
+        left: 38%;
+        margin-left: -25%;
+        margin-top: -5%;
+    }
+    
+    .About-Sec-Img img {
+        font-size: 10px;
+        top: 35%;
+        left: 55%;
+        margin-left: -26%;
+        margin-top: -5%;
+        height: 150px;
+    }
+    
+}
+

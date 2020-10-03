@@ -1,0 +1,94 @@
+.Exp-Section {
+    background-color: #85adad;
+    display: flex;
+    flex-flow: column;
+}
+
+.Exp {
+    order: 2;
+    padding: 0;
+    margin: 0;
+    height: 450px;
+    width: 80%;
+    position: relative;
+    margin: 150px auto;
+    background-color: #fff;
+}
+
+.Exp-Section-Title {
+    order: 1;
+    color: #fff;
+    font-size: 30px;
+    margin: 100px auto 0px;
+}
+
+.btn-container {
+    display: flex;
+    border-bottom: 1px solid #85adad;
+}
+
+.tab-btn {
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    margin-right: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    transition: all 1s;
+}
+
+.tab-btn:active {
+    color: #fff;
+    background-color: #85adad;
+} 
+
+.tab-btn:hover {
+    color: #85adad;
+}
+
+.content {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 10% 5%;
+     position: absolute;
+}
+
+.content {
+    display: none;
+}
+ 
+.content-header {
+    display: flex;
+    flex-flow: column;
+    order: 2;
+    flex-basis: 30%;
+}
+
+.content-body {
+    order: 1;
+    flex-basis: 70%;   
+}
+
+.title {
+    font-size: 20px;
+    color: #85adad;
+}
+
+.date {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.desc {
+    font-size: 18px;
+    font-weight: bold;
+    color: #85adad;
+}
+
+.active {
+    display: flex;
+}

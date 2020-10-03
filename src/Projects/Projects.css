@@ -1,0 +1,94 @@
+.Project-Section {
+    background-color: #fff;
+    display: flex;
+    flex-flow: column;
+}
+
+.Project {
+    order: 2;
+    padding: 0;
+    margin: 0;
+    height: 450px;
+    width: 80%;
+    position: relative;
+    margin: 150px auto;
+    background-color: #85adad;
+}
+
+.Project-Section-Title {
+    order: 1;
+    color: #85adad;
+    font-size: 30px;
+    margin: 100px auto 0px;
+}
+
+.Project-btn-container {
+    display: flex;
+    border-bottom: 1px solid #fff;
+}
+
+.Project-tab-btn {
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    margin-right: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    transition: all 1s;
+}
+
+.active {
+    color: #85adad;
+    background-color: #fff;
+} 
+
+.Project-tab-btn:hover {
+    color: #fff;
+}
+
+.Project-content {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 10% 5%;
+     position: absolute;
+}
+
+.Project-content {
+    display: none;
+}
+
+.Project-content-header {
+    display: flex;
+    flex-flow: column;
+    order: 1;
+    flex-basis: 30%;
+}
+
+.Project-content-body {
+    order: 2;
+    flex-basis: 70%;   
+}
+
+.Project-title {
+    font-size: 20px;
+    color: #fff;
+}
+
+.Project-desc {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.Project-active {
+    display: flex;
+}
+
+.ongoing {
+    color: red;
+    font-size: 15px;
+    padding-left: 25%;
+}
