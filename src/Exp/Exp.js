@@ -27,7 +27,7 @@ export default class Exp extends Component {
 
     render() {
         return (
-            <section className="Exp-Section">
+            <section className="Exp-Section" id='exp'>
             <div className="Exp-Section-Title">
                     <h2>Experience</h2>
             </div>

@@ -27,7 +27,7 @@ export default class Projects extends Component {
 
     render() {
         return (
-            <section className="Project-Section">
+            <section className="Project-Section" id='proj'>
             <div className="Project-Section-Title">
                     <h2>Projects</h2>
             </div>

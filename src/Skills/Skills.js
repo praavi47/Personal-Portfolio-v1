@@ -46,7 +46,7 @@ export default class Skills extends Component {
 
     render() {
         return (
-            <section className="Skills">
+            <section className="Skills" id="skills">
                 <div className="Skills-Section-Title">
                     <h2>Skills</h2>
                 </div>
